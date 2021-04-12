@@ -14,8 +14,16 @@ justify-content: center;
 
 color: var(--white);
 font-weight: bold;
+img{
+    width: 2.5rem;
+    height:  2.5rem;
+    border-radius: 25px;  
+   
 
-
+}
+img:first-child{
+    margin-right: 1rem;
+}
 
 svg{
     width: 20px;

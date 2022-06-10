@@ -22,7 +22,7 @@ export function SingInButton(){
     <button
         type="button"
         className={styles.signinButton}
-        onClick={()=> signIn('facebook')}
+        onClick={()=> signIn('github')}
         >
             <FaGithub color="#eba417"/>
             Sing on with Github

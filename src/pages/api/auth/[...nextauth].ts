@@ -10,10 +10,10 @@ export default NextAuth({
       scope:'read:user'
     }),
 
-    Providers.Facebook({
-        clientId: process.env.FACEBOOK_ID,
-        clientSecret: process.env.FACEBOOK_SECRET
-      })
+    // Providers.Facebook({
+    //     clientId: process.env.FACEBOOK_ID,
+    //     clientSecret: process.env.FACEBOOK_SECRET
+    //   })
     // ...add more providers here
   ],
 

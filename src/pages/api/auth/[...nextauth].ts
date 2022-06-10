@@ -17,6 +17,5 @@ export default NextAuth({
     // ...add more providers here
   ],
 
-  // A database is optional, but required to persist accounts in a database
-  database: process.env.DATABASE_URL,
+  
 })
